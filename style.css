@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, serif;
+}
+
+/* Main Container */
+.main-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+/*Image Section (Left Side)*/
+.image-section {
+    width: 45%;
+    float: left;
+}
+
+.image-section img {
+    width: 100%;
+}
+/*Form Section (Right Side)*/
+.form-section {
+    width: 50%;
+    float: right;
+}
+/*Form Title*/
+.form-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid red;
+}
+/*Form Groups*/
+.form-group {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.form-group label {
+    width: 180px;
+    float: left;
+    font-size: 22px;
+}
+.form-group > input {
+    width: 200px;
+    height: 30px;
+}
+/*Name & Address Inputs*/
+.name-inputs,
+.address-inputs,
+.gender-options,
+.checkbox-group {
+    width: 380px;
+    float: left;
+}
+.name-inputs input,
+.address-inputs input {
+    width: 170px;
+    height: 30px;
+}
+.name-inputs input:first-child,
+.address-inputs input:first-child {
+    float: left;
+}
+.name-inputs input:last-child,
+.address-inputs input:last-child {
+    float: right;
+}
+/*Gender Options*/
+.gender-options {
+    font-size: 20px;
+}
+.gender-options input {
+    margin-left: 15px;
+}
+/*Textarea*/
+textarea {
+    width: 320px;
+    height: 100px;
+    resize: none;
+}
+/*Checkbox Group*/
+.checkbox-group p {
+    margin-bottom: 10px;
+}
+.checkbox-group input {
+    margin-bottom: 8px;
+}
+/*Submit Button*/
+input[type="submit"] {
+    margin-left: 180px;
+    padding: 8px 20px;
+    background-color:#d7d7d7;
+}
